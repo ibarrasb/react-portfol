@@ -1,9 +1,6 @@
 import './footer.css'
-
-import React from 'react';
-
-import InstaSVG from '../../img/instagram-brands.svg'
-
+import React from 'react'
+import LinkedSVG from '../../img/linkedin.svg'
 
 const footer = () => {
     return (
@@ -12,18 +9,14 @@ const footer = () => {
                 <div className='row'>
                     <div className='col-sm-12'>
                         <div className='copyright-box'>
-                        <a href="https://instagram.com/frenchielife_llc?igshid=144jm8v95pdvi" target="_blank">
-                        <img className='insta-svg' src={InstaSVG}  alt ="" width="30"/>
-                        </a>
-                        <p> © Copyright 2021 Go Frenchie</p>
+                            <a href="https://www.linkedin.com/in/ibarrasb/" target="_blank">
+                            <img className='insta-svg' src={LinkedSVG}  alt ="" width="30"/>
+                            </a>
+                            <p> © Copyright 2022 Eduardo Ibarra SWE</p>
                         </div>
-                    
                     </div>
-                
                 </div>
-            
             </div>
-            
         </footer>
     );
 };
