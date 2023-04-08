@@ -27,23 +27,32 @@
 .about-sec{
   background-color: aliceblue;
   width: 100%;
-  height: 200px;
   text-align:center;
   border-radius: 10px;
   margin-top: 20px;
+  padding-top: 30px;
+}
+img.foursevensvg {
+  height: 150px;
+  width: auto;
+  margin: -30px;
+}
+img.dap {
+  height: 100px;
+  width: auto;
+  
 }
 .exp-sec{
   background-color: aliceblue;
   width: 100%;
-  height: 200px;
   text-align:center;
   border-radius: 10px;
   margin-top: 20px;
+ 
 }
 .proj-sec{
   background-color: aliceblue;
   width: 100%;
-  height: 200px;
   text-align:center;
   border-radius: 10px;
   margin-top: 20px;
@@ -66,6 +75,8 @@
     transform: translate(-50%, -50%);
     background-color: black;
     font-size: 40px;
+    margin-bottom: 40px;
+   
 
   }
 .home-section{
