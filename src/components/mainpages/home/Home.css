@@ -5,12 +5,15 @@
 .container-box{
     width: auto;
   margin: auto;
-  display: block;
   margin-top: -300px;
-
+  display: block;
+  padding-bottom: 5px;
     position: relative;
     text-align: center;
     color: white;
+}
+#detailed-sec{
+  padding: 15px;
 }
 .pnd-text{
   background-color: transparent;
@@ -64,18 +67,17 @@ img.dap {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+   
     font-size: 60px;
 
   }
   .centered-text2 {
     position: absolute;
-    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+   color: black;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
    
 
   }
@@ -100,6 +102,12 @@ h2.ship{
 .headline{
   font-family: 'Satisfy', cursive;
 }
+.me-pic{
+  display: inline-block;
+  height: auto;
+  width: 40%;
+  border-radius: 7px;
+}
 
 .about-us{
   text-align: center;
@@ -120,6 +128,19 @@ h2.ship{
   .pnd-text{
     font-size: unset;
   }
+  .centered-text2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 20px;
+  
+}
+.me-pic{
+  display: inline-block;
+  height: auto;
+  width: 80%;
+  border-radius: 7px;
+}
 }
 img.binary-pic{
     display: block;

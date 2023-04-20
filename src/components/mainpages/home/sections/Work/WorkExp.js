@@ -6,7 +6,7 @@ import DAP from '../../../../../img/dap.png'
 function WorkExp() {
     return (
         <div>
-            <div className='exp-sec'>
+            <div className='exp-sec'id='detailed-sec'>
           <img src={Suitcase} alt='' className='home-svg' width='40px'/>
           <h2 className='pnd'>Experience</h2>
 

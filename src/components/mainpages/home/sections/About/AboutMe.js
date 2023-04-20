@@ -4,7 +4,7 @@ import UserMe from '../../../../../img/user-solid.svg'
 function AboutMe() {
     return (
         <div>
-             <div className='about-sec'>
+             <div className='about-sec'id='detailed-sec'>
           <img src={UserMe} alt='' className='home-svg' width='40px'/>
           <h2 className='pnd'>About Me</h2>
           <p className='pnd-text'>As a passionate and skilled software engineer, I thrive on creating innovative solutions to complex problems. With a solid foundation in computer science and extensive experience in software development, I bring a versatile skillset to the table.

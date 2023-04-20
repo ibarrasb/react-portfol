@@ -4,7 +4,7 @@ import Proj from '../../../../../img/code-branch-solid.svg'
 function Projects() {
     return (
         <div>
-            <div className='proj-sec'>
+            <div className='proj-sec'id='detailed-sec'>
           <img src={Proj} alt='' className='home-svg' width='40px'/>
           <h2 className='pnd'>Projects</h2>
           <h3 className='pnd-text'>Sideline Shop</h3>
