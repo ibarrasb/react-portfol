@@ -6,7 +6,7 @@ import Home from './home/Home'
 function Pages() {
     return (
         <Switch>
-            <Route path='/' exact component={Home}/>
+            <Route path='/react-portfol' exact component={Home}/>
             
             <Route path='*' exact component={NotFound}/>
         </Switch>
