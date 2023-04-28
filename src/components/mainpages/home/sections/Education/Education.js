@@ -1,13 +1,13 @@
 import React from 'react';
 import Mustang from '../../../../../img/mustang.png'
 import Dallas from '../../../../../img/dallas.png'
-import DAP from '../../../../../img/dap.png'
+import School from '../../../../../img/school-solid.svg'
 
 function Education() {
     return (
         <div>
            <div className='exp-sec'id='detailed-sec'>
-          {/* <img src={Suitcase} alt='' className='home-svg' width='40px'/> */}
+          <img src={School} alt='' className='home-svg' width='40px'/>
           <h2 className='pnd'>Education</h2>
 
           <div className='j-segments'>
