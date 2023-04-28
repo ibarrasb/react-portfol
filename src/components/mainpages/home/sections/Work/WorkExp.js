@@ -10,6 +10,7 @@ function WorkExp() {
           <img src={Suitcase} alt='' className='home-svg' width='40px'/>
           <h2 className='pnd'>Experience</h2>
 
+          <div className='j-segments'>
           <div className='job-img'>
               <div className='ai'>
                 <img src={aiTWENTY} alt='' className='foursevensvg' width='40px'/>
@@ -17,7 +18,10 @@ function WorkExp() {
           </div>
           <h2 className='pnd-text'>[24]7.ai</h2>
           <h3 className='pnd-text'>Software Engineer</h3>
+          <h3 className='job-time'>Oct 2021 - Present</h3>
           <p className='pnd-text'>Development of world-class speech applications for Capital One Auto Finance, and delivery tools that impact millions of consumers every day.</p>
+          </div>
+          <div className='j-segments'>
           <div className='job-img'>
               <div className='ai'>
                 <img src={DAP} alt='' className='dap' width='40px'/>
@@ -25,8 +29,10 @@ function WorkExp() {
           </div>
           <h2 className='pnd-text'>Smart Response</h2>
           <h3 className='pnd-text'>Web Developer</h3>
+          <h3 className='job-time'>Jan 2021 - Oct 2021</h3>
           <p className='pnd-text'>Web developer at a non-profit organization, committed to creating web solutions that empower the organization's mission and drive positive change in the community. I work with dedication, attention to detail, and a collaborative mindset to contribute to the success of the organization and help amplify its impact.</p>
           </div>  
+        </div>
         </div>
     );
 }

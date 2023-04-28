@@ -14,11 +14,29 @@
 }
 #detailed-sec{
   padding: 15px;
+  background-color: aliceblue;
 }
 .pnd-text{
   background-color: transparent;
   color: black;
   font-size: x-large;
+}
+.job-time{
+  color: grey;
+  font-size: 13px;
+}
+.mustang{
+  width: 150px;
+  height: auto;
+  padding: 10px;
+}
+.dallas{
+  width: 130px;
+  height: auto;
+  padding: 10px;
+}
+.project-comp{
+  margin: 20px;
 }
 .pnd{
   background-color: transparent;
@@ -67,7 +85,6 @@ img.dap {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
     font-size: 60px;
 
   }
@@ -75,10 +92,12 @@ img.dap {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-   color: black;
-    font-size: 40px;
+   color: aliceblue;
+   font-size: 40px;
     margin-bottom: 100px;
-   
+    font-family:'Times New Roman', Times, serif;
+ 
+    
 
   }
 .home-section{
@@ -106,6 +125,8 @@ h2.ship{
   display: inline-block;
   height: auto;
   width: 40%;
+  border-style: solid;
+  margin-bottom: 15px;
   border-radius: 7px;
 }
 
@@ -131,8 +152,9 @@ h2.ship{
   .centered-text2 {
     position: absolute;
     left: 50%;
+    padding-bottom: 105px;
     transform: translate(-50%, -10%);
-    font-size: 20px;
+    font-size: 23px;
   
 }
 .me-pic{

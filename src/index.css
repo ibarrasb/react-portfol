@@ -16,7 +16,8 @@
 
 }
 body{
-  background-image: url(./img/cool-background-4.png);
+  /* background-image: url(./img/cool-background-4.png); */
+  background-color: #839973;
 }
 .svg-pic{
   max-width: 60px;

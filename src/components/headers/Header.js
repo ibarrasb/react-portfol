@@ -9,7 +9,7 @@ function Header() {
         <div className='logo'>
             <h1>
                
-                <Link className="title-name" to="/">
+                <Link className="title-name" to="/react-portfol">
                     <img className='svg-pic' src={CodeSolid} ></img>
                     Eduardo Ibarra
                 </Link>

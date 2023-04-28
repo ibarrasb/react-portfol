@@ -4,6 +4,7 @@ import MePicture from '../../../img/eddie.jpg'
 import AboutMe from '../home/sections/About/AboutMe'
 import WorkExp from '../home/sections/Work/WorkExp'
 import Projects from '../home/sections/Projects/Projects'
+import Education from '../home/sections/Education/Education';
 import UserMe from '../../../img/user-solid.svg'
 
 
@@ -22,6 +23,7 @@ function Home() {
           <AboutMe/>
           <WorkExp/>
           <Projects/>
+          <Education/>
 
         </section>
     );
