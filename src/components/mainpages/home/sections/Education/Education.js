@@ -18,7 +18,7 @@ function Education() {
           </div>
           <h2 className='pnd-text'>Full-Stack Web Development</h2>
           <h3 className='pnd-text'>Southern Methodist University</h3>
-          <h3 className='job-time'>April 2021</h3>
+          
           <p className='pnd-text'></p>
           </div>
           <div className='j-segments'>
@@ -29,7 +29,6 @@ function Education() {
           </div>
           <h2 className='pnd-text'>Associates in Science</h2>
           <h3 className='pnd-text'>Richland College</h3>
-          <h3 className='job-time'>2023</h3>
           <p className='pnd-text'></p>
           </div>  
         </div>
